@@ -110,7 +110,7 @@ a{
   transform: translate(-50%, -50%) scale(1);
 }
 .signup_form {
-  display: auto;
+  display: inline-block;
 }
 .form_container.active .signup_form {
   display: inline-block;
@@ -138,12 +138,12 @@ a{
 .input_box {
   position: auto;
   margin-top: 30px;
-  width: 100%;
+  width: auto;
   height: 40px;
 }
 .input_box input {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
   border: none;
   outline: none;
   padding: 30px;
@@ -156,7 +156,7 @@ a{
 }
 .input_box i {
   position: absolute;
-  top: 100%;
+  top: auto;
   transform: translateY(-50%);
   font-size: 20px;
 }
@@ -204,7 +204,7 @@ a{
 .form_container .button {
   background: #7d2ae8;
   margin-top: 30px;
-  width: 100%;
+  width: auto;
   padding: 10px 0;
   border-radius: 10px;
 }
