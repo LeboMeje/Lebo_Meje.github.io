@@ -9,6 +9,16 @@
 a{
   text-decoration: none;
 }
+
+/* Hero */
+.hero {
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #rgba;
+    padding: 100px 0;
+}
 .header {
   position: fixed;
   height: 80px;
