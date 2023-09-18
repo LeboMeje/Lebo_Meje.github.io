@@ -138,7 +138,7 @@ a{
 .input_box {
   position: auto;
   margin-top: 30px;
-  width: 50%;
+  width: 100%;
   height: 40px;
 }
 .input_box input {
@@ -156,7 +156,7 @@ a{
 }
 .input_box i {
   position: absolute;
-  top: 50%;
+  top: 100%;
   transform: translateY(-50%);
   font-size: 20px;
 }
