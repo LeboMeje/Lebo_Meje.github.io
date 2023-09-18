@@ -1,8 +1,8 @@
-# Lebo Meje's personal website
+# Lebo Meje's personal website (Mejestic)
 
 Source code of my portfolio project
 
-[See it live! :rocket:](https://www.lebomeje.me)
+[See it live! :rocket:](https://www.lebomeje.github.io)
 
 ## Technologies
 * HTML
