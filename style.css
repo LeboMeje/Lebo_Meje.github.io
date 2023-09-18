@@ -35,7 +35,7 @@ a{
 .nav_items {
   display: flex;
   height: 100%;
-  align-items: center;
+  align-items: left;
   justify-content: space-between;
 }
 .nav_logo,
@@ -116,10 +116,10 @@ a{
   display: block;
 }
 .form_container.active .login_form {
-  display: none;
+  display: block;
 }
 .signup_form {
-  display: none;
+  display: block;
 }
 .form_close {
   position: absolute;
@@ -136,14 +136,14 @@ a{
   text-align: centre;
 }
 .input_box {
-  position: relative;
+  position: centre;
   margin-top: 30px;
-  width: 100%;
+  width: 50%;
   height: 40px;
 }
 .input_box input {
   height: 100%;
-  width: 100%;
+  width: 50%;
   border: none;
   outline: none;
   padding: 0 30px;
@@ -204,7 +204,7 @@ a{
 .form_container .button {
   background: #7d2ae8;
   margin-top: 30px;
-  width: 100%;
+  width: 50%;
   padding: 10px 0;
   border-radius: 10px;
 }
